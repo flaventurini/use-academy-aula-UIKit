@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var viewWhite: UIView!
     
+    @IBOutlet weak var buttonGray: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
