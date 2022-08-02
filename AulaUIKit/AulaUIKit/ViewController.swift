@@ -9,11 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var viewGreen: UIView!
+    
+    @IBOutlet weak var viewYellow: UIView!
+    
+    @IBOutlet weak var viewWhite: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupUI()
     }
 
+    private func setupUI() {
+        viewGreen.backgroundColor = .red
+    }
 
 }
 
