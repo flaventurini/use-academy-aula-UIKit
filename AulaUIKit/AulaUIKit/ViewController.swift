@@ -17,8 +17,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var viewWhite: UIView!
     
-    @IBOutlet weak var buttonBlue: UIButton!
-    
+    @IBOutlet weak var typePassword: UITextField!
     
     // MARK: Overrides
     
@@ -27,11 +26,20 @@ class ViewController: UIViewController {
         setupUI()
     }
 
+    @IBAction func buttonBlue(_ sender: Any) {
+        changeKeyboardType()
+    }
     
     // MARK: Methods
     
     private func setupUI() {
         viewGreen.backgroundColor = .red
+    }
+    
+    private func changeKeyboardType() {
+        typePassword.resignFirstResponder()
+        typePassword.keyboardType = .numberPad
+        typePassword.becomeFirstResponder()
     }
 
 }
