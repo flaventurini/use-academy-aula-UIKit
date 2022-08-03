@@ -32,14 +32,18 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBs-oe-mRh">
-                                <rect key="frame" x="157" y="717" width="107" height="38"/>
+                                <rect key="frame" x="113" y="697" width="189" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Comprar">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
-                                    <color key="baseForegroundColor" systemColor="systemPinkColor"/>
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.3507404596" green="0.54750383120000001" blue="0.76871567959999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="30"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
                         </subviews>
@@ -47,7 +51,7 @@
                         <color key="backgroundColor" red="0.35074045955095762" green="0.5475038311585374" blue="0.76871567964553833" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="buttonGray" destination="YBs-oe-mRh" id="eWs-1M-eVb"/>
+                        <outlet property="buttonBlue" destination="YBs-oe-mRh" id="EfA-Zw-T4B"/>
                         <outlet property="viewGreen" destination="jOG-Ml-gS0" id="NcG-Ys-lro"/>
                         <outlet property="viewWhite" destination="ExE-k4-dFh" id="yBh-5D-IEO"/>
                         <outlet property="viewYellow" destination="g6H-Wy-r6N" id="5qb-gW-ys7"/>
@@ -55,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="94"/>
+            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
         </scene>
     </scenes>
     <resources>
@@ -70,9 +74,6 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

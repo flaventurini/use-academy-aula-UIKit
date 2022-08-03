@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var viewWhite: UIView!
     
-    @IBOutlet weak var buttonGray: UIButton!
+    @IBOutlet weak var buttonBlue: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
